@@ -1,0 +1,232 @@
+{
+    "contractName": "HelloWorld",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "greet",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "renderHelloWorld",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"greet\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renderHelloWorld\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/jidamva/Documents/Learn SOlidity/contract.sol\":\"HelloWorld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jidamva/Documents/Learn SOlidity/contract.sol\":{\"keccak256\":\"0xb616c057e282b16fc9497615a13bf5ebc7df91e16747b92ef67ac949c520ef37\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://9f2565f0ab145dc47b3325d45f0ec1882e5c39efbc7a641db15ed3f0fcb66521\",\"dweb:/ipfs/QmZLLZvBgHYb1eX4JLfLfDt2SZA3qT6McXpgkk5EkxyK5s\"]}},\"version\":1}",
+    "bytecode": "60c0604052600c60808190526b48656c6c6f20576f726c642160a01b60a090815261002d9160009190610040565b5034801561003a57600080fd5b50610114565b82805461004c906100d9565b90600052602060002090601f01602090048101928261006e57600085556100b4565b82601f1061008757805160ff19168380011785556100b4565b828001600101855582156100b4579182015b828111156100b4578251825591602001919060010190610099565b506100c09291506100c4565b5090565b5b808211156100c057600081556001016100c5565b600181811c908216806100ed57607f821691505b6020821081141561010e57634e487b7160e01b600052602260045260246000fd5b50919050565b6101ca806101236000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063942ae0a71461003b578063cfae321714610073575b600080fd5b60408051808201909152600a8152691a195b1b1bd5dbdc9b1960b21b60208201525b60405161006a9190610104565b60405180910390f35b61005d6000805461008390610159565b80601f01602080910402602001604051908101604052809291908181526020018280546100af90610159565b80156100fc5780601f106100d1576101008083540402835291602001916100fc565b820191906000526020600020905b8154815290600101906020018083116100df57829003601f168201915b505050505081565b600060208083528351808285015260005b8181101561013157858101830151858201604001528201610115565b81811115610143576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061016d57607f821691505b6020821081141561018e57634e487b7160e01b600052602260045260246000fd5b5091905056fea26469706673582212201fe844356731829536e1811316f2b3f2b34f50f4b7720f9a3d4bd2302d48731c64736f6c634300080b0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100365760003560e01c8063942ae0a71461003b578063cfae321714610073575b600080fd5b60408051808201909152600a8152691a195b1b1bd5dbdc9b1960b21b60208201525b60405161006a9190610104565b60405180910390f35b61005d6000805461008390610159565b80601f01602080910402602001604051908101604052809291908181526020018280546100af90610159565b80156100fc5780601f106100d1576101008083540402835291602001916100fc565b820191906000526020600020905b8154815290600101906020018083116100df57829003601f168201915b505050505081565b600060208083528351808285015260005b8181101561013157858101830151858201604001528201610115565b81811115610143576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061016d57607f821691505b6020821081141561018e57634e487b7160e01b600052602260045260246000fd5b5091905056fea26469706673582212201fe844356731829536e1811316f2b3f2b34f50f4b7720f9a3d4bd2302d48731c64736f6c634300080b0033",
+    "sourceMap": "202:36:0:-:0;176:169;202:36;;176:169;202:36;;;-1:-1:-1;;;202:36:0;;;;;;-1:-1:-1;;202:36:0;;:::i;:::-;;176:169;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;176:169:0;;;-1:-1:-1;176:169:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:380:1;93:1;89:12;;;;136;;;157:61;;211:4;203:6;199:17;189:27;;157:61;264:2;256:6;253:14;233:18;230:38;227:161;;;310:10;305:3;301:20;298:1;291:31;345:4;342:1;335:15;373:4;370:1;363:15;227:161;;14:380;;;:::o;:::-;176:169:0;;;;;;",
+    "deployedSourceMap": "176:169:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;242:97;316:19;;;;;;;;;;;;-1:-1:-1;;;316:19:0;;;;242:97;;;;;;;:::i;:::-;;;;;;;;202:36;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;14:597:1:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:1;574:15;-1:-1:-1;;570:29:1;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:1:o;616:380::-;695:1;691:12;;;;738;;;759:61;;813:4;805:6;801:17;791:27;;759:61;866:2;858:6;855:14;835:18;832:38;829:161;;;912:10;907:3;903:20;900:1;893:31;947:4;944:1;937:15;975:4;972:1;965:15;829:161;;616:380;;;:::o",
+    "sourcePath": "/home/jidamva/Documents/Learn SOlidity/contract.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.11+commit.d7f03943"
+    },
+    "ast": {
+        "absolutePath": "/home/jidamva/Documents/Learn SOlidity/contract.sol",
+        "exportedSymbols": {
+            "HelloWorld": [
+                13
+            ]
+        },
+        "id": 14,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".0",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "82:31:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HelloWorld",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "HelloWorld",
+                "nameLocation": "185:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "cfae3217",
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "greet",
+                        "nameLocation": "216:5:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "202:36:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "202:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "48656c6c6f20576f726c6421",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "224:14:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_3ea2f1d0abf3fc66cf29eebb70cbd4e7fe762ef8a09bcc06c8edf641230afec0",
+                                "typeString": "literal_string \"Hello World!\""
+                            },
+                            "value": "Hello World!"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "307:32:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "68656c6c6f576f726c64",
+                                        "id": 9,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "323:12:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_12b096b6159082166a8da265c1a00fd80f36fd02f81cc45f3d5e11f7ee38143a",
+                                            "typeString": "literal_string \"helloWorld\""
+                                        },
+                                        "value": "helloWorld"
+                                    },
+                                    "functionReturnParameters": 8,
+                                    "id": 10,
+                                    "nodeType": "Return",
+                                    "src": "316:19:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "942ae0a7",
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "renderHelloWorld",
+                        "nameLocation": "251:16:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "268:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 8,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 7,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 12,
+                                    "src": "292:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 6,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "292:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "291:15:0"
+                        },
+                        "scope": 13,
+                        "src": "242:97:0",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "176:169:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "82:263:0"
+    },
+    "functionHashes": {
+        "greet()": "cfae3217",
+        "renderHelloWorld()": "942ae0a7"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "91600",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "greet()": "infinite",
+            "renderHelloWorld()": "infinite"
+        }
+    }
+}
